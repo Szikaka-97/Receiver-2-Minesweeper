@@ -17,9 +17,9 @@ Digging on a number tile with a number of flags around it matching the number of
 - Download the correct archive depending on your operating system
 
 -  Copy the "Gamemodes" folder to your local AppData folder: <br>
-   %UserProfile%\AppData\LocalLow\Wolfire Games\Receiver2\Guns - Windows <br>
-   ~\Library\Application Support\Wolfire Games\Receiver2\Guns – Mac OS <br>
-   ~.config_unity3d\Wolfire Games\Receiver2\Guns – Linux <br>
+   %UserProfile%\AppData\LocalLow\Wolfire Games\Receiver2 - Windows <br>
+   ~\Library\Application Support\Wolfire Games\Receiver2 – Mac OS <br>
+   ~.config_unity3d\Wolfire Games\Receiver2 – Linux <br>
 - Copy the "plugins" folder to your BepInEx installation: <br>
    <SteamDirectory>/steamapps/common/Receiver2/BepInEx - Standalone bepinex <br>
    %AppData%\Roaming\r2modmanPlus-local\Receiver2\profiles\<ProfileName>\BepInEx - Using R2ModMan <br>
