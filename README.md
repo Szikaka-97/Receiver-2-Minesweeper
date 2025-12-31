@@ -4,7 +4,11 @@ Kablooey
 
 ## How to
 
-Click out the number of mines and the play field size using panels. A minesweeper game will appear in the center of the room. After that you know the drill
+Click out the number of mines and the play field size using panels. A minesweeper game will appear in the center of the room. After that you know the drill <br>
+
+Flagging an already flagged tile will remove the flag <br>
+
+Digging on a number tile with a number of flags around it matching the number of bombs around the tile will reveal all unflagged tiles around it <br>
 
 ## Installation
 
