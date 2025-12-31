@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4108345967032117789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
+  m_Name: AssemblyDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <GamePath>/BepInEx/plugins/Minesweeper
+  definitions:
+  - {fileID: 5897886265953266890, guid: 73b0fd2d9fd9bf447a79055f4e6086ca, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e563561e08b6a3642a487177f5cfbb37, type: 3}
+  m_Name: Minesweeper
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 5706241600173501727}
+  - {fileID: -4108345967032117789}
+  - {fileID: 6398000807962737736}
+  identity: {fileID: 5706241600173501727}
+  QuickAccess: 0
+--- !u!114 &5706241600173501727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22bb7fd1d3b56a48bc52f8e407901d6, type: 3}
+  m_Name: ManifestIdentity
+  m_EditorClassIdentifier: 
+  StagingPaths: []
+  Author: Szikaka
+  Name: Minesweeper
+  Description: baka
+  Version: 0.0.1
+  Dependencies:
+  - {fileID: 11400000, guid: ac948e712e82b4342afad8444c5eaacd, type: 2}
+--- !u!114 &6398000807962737736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
+  m_Name: AssetBundleDefinitions
+  m_EditorClassIdentifier: 
+  StagingPaths:
+  - <PersistentDataPath>/Gamemodes/Minesweeper
+  assetBundles:
+  - assetBundleName: minesweeper_gamemode.windows
+    assets:
+    - {fileID: 2037063046107539887, guid: 37433d698e6474a4fa7c2d8513ba0240, type: 3}
+  - assetBundleName: minesweeper_assets.windows
+    assets:
+    - {fileID: 102900000, guid: 8b34b4277302c5d44b5a922fed77427f, type: 3}

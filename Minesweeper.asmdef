@@ -1,0 +1,21 @@
+{
+    "name": "Minesweeper",
+    "references": [
+        "GUID:041edb9e43e1cd140a16ecbcf83eaffa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Wolfire.Receiver2.dll",
+        "BepInEx.dll",
+        "SimpleJSON.dll",
+        "0Harmony.dll",
+        "Unity.TextMeshPro.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
